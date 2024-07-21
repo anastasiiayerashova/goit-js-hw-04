@@ -10,7 +10,6 @@ function calcAverageCalories(days) {
     return totalCalories / days.length;
 }
 
-
                                                      /* Цикл for */
 // function calcAverageCalories(days) {
 //     if (days.length === 0) {
@@ -23,7 +22,6 @@ function calcAverageCalories(days) {
 //     return totalCalories / days.length;
 // }
     
-
                                                      /* Цикл while */
 // function calcAverageCalories(days) {
 //     if (days.length === 0) {
