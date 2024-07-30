@@ -1,3 +1,4 @@
+                                                     /* Цикл for...of */
 function isEnoughCapacity(products, containerSize) {
     const values = Object.values(products);
     let totalAmount = 0;
@@ -6,6 +7,18 @@ function isEnoughCapacity(products, containerSize) {
     }
     return totalAmount <= containerSize;
 }
+
+                                                     /* Цикл for...in */
+// function isEnoughCapacity(products, containerSize) {
+//     let totalAmount = 0;
+//     for (let key in products) {
+//         if (products.hasOwnProperty(key)) {
+//             totalAmount += products[key];
+//         }
+//     }
+//     return totalAmount <= containerSize;
+// }
+
 console.log(
   isEnoughCapacity({ apples: 2, grapes: 3, carrots: 1 }, 8)
 ); // true
